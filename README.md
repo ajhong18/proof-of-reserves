@@ -1,7 +1,7 @@
 # zk-SNARK & MerkleTree Proof of Solvency
 
 This project aims to explore encrypted technology based on zk-SNARK and MerkleTree to achieve the goal of bringing digital currency exchanges closer to decentralization. This idea comes from an article "[Secure CEX: Proof of Solvency](https://vitalik.ca/general/2022/11/19/proof_of_solvency.html)" by Vitalik Buterin, the co-founder of Ethereum.
-
+0x68d06b8ef59df55e1f864806baba42e8300f2e22
 ## Project Introduction
 
 The project involves the use of zk-SNARK, which is a powerful cryptographic technology. We first place all users' deposits into a Merkle tree and then use zk-SNARK to prove that all the balances in the tree are non-negative and their sum equals a claimed value. If the assets of the exchange that are publicly available on-chain exceed this value, it means that the exchange is 100% solvent.
@@ -349,7 +349,7 @@ All proofs verify passed!!!
 If the verification is successful, it will output
 
 ```Plaintext
-merkle leave hash: 164bc38a71b7a757455d93017242b4960cd1fea6842d8387b60c5780205858ce
+merkle leave hash: 0x68d06b8ef59df55e1f864806baba42e8300f2e22
 verify pass!!!
 ```
 
